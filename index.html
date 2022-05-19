@@ -1,2 +1,168 @@
-<p>Test</p>
-<img src="./static/img/Logo.png">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="image/png" href="./Logo.png" />
+    <title>La guerre entre le Parti et les journalistes</title>
+</head>
+
+
+<body>
+    <!--Header with logo-->
+    <header>
+        <div class="header-items">
+            <img src="./Logo.png" alt="logo">
+        </div>
+        <div class="header-items">
+            <p class="header-title"><span>La guerre entre le Parti et les journalistes</span>
+            </p>
+        </div>
+        <div class="header-items">
+            <p class="header-title"><span style="padding-right: 10px;">IUT Informatique Toulouse</span>
+                <img src="./LogoIUT.png" alt="logo">
+        </div>
+    </header>
+    <!-- hero banner with image -->
+    <div class="hero-banner">
+        <div class="hero-banner__image">
+            <img src="./hero-header1.jpg" alt="hero-banner">
+        </div>
+        <div class="hero-banner__content">
+            <h1 class="title">La guerre entre le Parti et les journalistes</h1>
+        </div>
+    </div>
+    <!-- end hero banner with image -->
+    <!-- main content -->
+
+    <section class="introduction">
+        <!-- Title -->
+        <h2 class="introduction__title title">Contextualisation</h2>
+        <p class="introduction__text">
+            <span class="tabulation"></span>Le Parti est le nom du parti dirigeant la Chine. La liberté d’expression en Chine recule, depuis l'arrivée de Xi Jinping au pouvoir, s’informer librement est devenu illégal.
+        </p>
+        <p class="introduction__text"><span class="tabulation"></span>Pour devenir journaliste, avoir sa carte de presse, il faut suivre une formation sur la penser de Xi Jinping et installer une application (Étudier Xi, renforcer le pays). Le gouvernement chinois vise même à interdire
+            les médias privés.</p>
+        <p class="introduction__text"><span class="tabulation"></span>Mais face à ces mesures des journalistes ne se plient pas aux règles malgré les peines qu’ils leurs sont réservées. A l’heure où nous écrivons ces lignes 359 journalistes sont emprisonnés en Chine. Cela fait donc
+            de la Chine, selon Reporter Sans Frontières, le 177ème pays sur 180 pays notés pour la liberté de presse.
+        </p>
+
+        </p>
+    </section>
+    <div class="bandeau_boutons">
+        <!--Create two buttons "gouvernement" and "journaliste"-->
+        <button id="btn-1" onclick="clickGouvernement()">
+            Gouvernement
+        </button>
+        <button id="btn-2" onclick="clickJournalistes()">
+            Journaliste
+        </button>
+    </div>
+    <section class="contenu">
+        <div class="contenu__item journalistes">
+            <h3 class="contenu__title title">Anonymat</h3>
+            <div class="contenu__content">
+                <img src="./Journaliste1_anonymat.png" alt="" class="contenu__img">
+                <p class="contenu__text"><span class="tabulation"></span>Les journalistes s’adaptent, ils prennent des précautions. Les journalistes qui divulguent des informations les mettant en danger utilisent des cartes SIM prépayés et des téléphones d’occasions pour pouvoir
+                    communiquer sans se faire trouver. Pour se cacher lors des appels, ils utilisent aussi des modifieurs de voix pour ne pas se faire reconnaître même sur écoute. Et pour la communication sur internet, ils utilisent le pseudonymat et
+                    des VPN (logiciel permettant de consulter des sites en passant par un ordinateur différent). Ils utilisent des plateformes tels que Wiki Leaks, GitHub, WeChat et même parfois des langages codés.</p>
+            </div>
+        </div>
+
+
+        <div class="contenu__item journalistes">
+            <h3 class="contenu__title title">Exil</h3>
+            <div class="contenu__content">
+                <img src="./Journaliste2_Exil.png" alt="" class="contenu__img">
+                <p class="contenu__text"><span class="tabulation"></span>Les journalistes de terrain sont des sources d’informations et pour leur sécurité ne dévoilent pas eux même leurs recherches et passe par des intermédiaires. Beaucoup de ces intermédiaires sont des médias
+                    indépendants connus pour braver le gouvernement chinois tel que Boxun News, Caixin ou Hong Kong Free Press. Quelques-uns de ces médias ne siègent plus en Chine mais aux Etats-Unis, à Hong Kong, à Taiwan ou encore Singapour. Ces médias
+                    sont fondés par des journalistes exilés et utilisent tous internet. Les exilés sont exilés d'eux-mêmes mais sont interdits de territoire chinois car ils étaient recherchés.</p>
+            </div>
+        </div>
+
+
+
+        <div class="contenu__item journalistes">
+            <h3 class="contenu__title title">Peines</h3>
+            <div class="contenu__content">
+                <img src="./Journaliste3_Peines.png" alt="" class="contenu__img">
+                <p class="contenu__text"><span class="tabulation"></span>Les peines ne manquent pas. Nous allons citer quelques exemples de journalistes qui ont bravé le système. <br><span class="tabulation"></span>Yiu Mantin est le fondateur de Morning Bell Press, enfermé en
+                    2014, il a été inculpé de 10 ans de prison pour une tentative de publication d’un livre sur le président Xi Jinping. Ou encore, Huang Qi (L'image ci-contre) a fondé le site 64 Tianwang, enfermé en juillet 2019 pour 12 ans, il a interviewé
+                    des victimes d’états.
+                </p>
+            </div>
+        </div>
+
+        <div class="contenu__item gouvernement">
+            <h3 class="contenu__title title">Intimidation</h3>
+            <div class="contenu__content">
+                <img src="./Gouvernement1_Intimidation.png" alt="" class="contenu__img">
+                <p class="contenu__text"><span class="tabulation"></span>Pour freiner les journalistes, le Parti met en place une politique de la terreur. Premièrement en inculpant de lourdes peines aux réprimandés et en obligeant les journalistes à suivre une formation continue
+                    de 90 heures par an qui sert à donner les règles et faire peur en parlant des peines et des condamnés. Mais cela ne suffit pas alors pour rappeler à l’ordre les séparatistes ils les invitent à venir “prendre un thé”, qui est en fait
+                    un rendez vous avec un fonctionnaire de la censure chinoise durant lequel les journalistes sont averti plus ou moins cordialement. C’est un dernier avertissement avant une condamnation.</p>
+            </div>
+        </div>
+
+
+        <div class="contenu__item gouvernement">
+            <h3 class="contenu__title title">Censure et Propagande</h3>
+            <div class="contenu__content">
+                <img src="./Gouvernement2_Censure.png" alt="" class="contenu__img">
+                <p class="contenu__text"><span class="tabulation"></span>Le système journalistique chinois est régi par un manuel de propagande, il contient des règles à respecter pour les journalistes. Avec ceci, chaque jour les médias reçoivent les ordres du jour, ce sont des
+                    sujets à absolument aborder pour mettre en valeur le Parti et d’autres sujets interdits qui sont généralement en défaveur du gouvernement chinois. Les journalistes bravant ces règles et étant détenus par le Parti sont (si leur état
+                    de santé le permet) contraint de se déclarer coupable lors d’une prise de parole.
+                    <br><span class="tabulation"></span>Le régime chinois employait en 2013 deux millions de censeurs, il doit y en avoir plus aujourd’hui, leur métier consiste à censurer que ce soit les médias traditionnels, les réseaux sociaux, les
+                    articles… Ils doivent envoyer au Parti des rapports de censures et ont parfois même des quotas de censure à respecter.
+                </p>
+            </div>
+        </div>
+
+        <div class="contenu__item gouvernement">
+            <h3 class="contenu__title title">Prison</h3>
+            <div class="contenu__content">
+                <img src="./Gouvernement_Prison.png" alt="" class="contenu__img">
+                <p class="contenu__text"><span class="tabulation"></span>Un journaliste ne se pliant pas aux règles risque plusieurs peines de prisons, elles ont pour point commun d’être flou ce qui permet de couvrir un large panel de “crimes”. Comme par exemple la loi de sécurité
+                    nationale mise en place à Hong Kong, elle sert à réprimander les voix indépendantes en les déclarant comme terroristes mais c’est surtout utilisé pour réprimander les journalistes pro-démocratiques. Il y en a d’autres comme le crime
+                    d’espionnage, de divulgation de secret d’Etats à l’étranger ou encore le crime "d'attiser des querelles et provoquer des troubles” et même le crime “d’accéder à l’internet international par des voies illégales”. Tous les crimes cités
+                    ci-dessus sont passibles de prison.
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    var journalistes = document.getElementsByClassName("journalistes");
+    var gouvernement = document.getElementsByClassName("gouvernement");
+
+    function hide(classe) {
+        for (var i = 0; i < classe.length; i++) {
+            classe[i].style.display = "none";
+            console.log(classe[i]);
+        }
+    }
+
+    function show(classe) {
+        for (var i = 0; i < classe.length; i++) {
+            classe[i].style.display = "flex";
+        }
+    }
+
+    function clickJournalistes() {
+        hide(gouvernement);
+        show(journalistes);
+        document.getElementById("btn-2").style.backgroundColor = "var(--color-j_clair)";
+        document.getElementById("btn-1").style.backgroundColor = "var(--color-c_fonce)";
+    }
+
+    function clickGouvernement() {
+        hide(journalistes);
+        show(gouvernement);
+        document.getElementById("btn-2").style.backgroundColor = "var(--color-j_fonce)";
+        document.getElementById("btn-1").style.backgroundColor = "var(--color-c_clair)";
+    }
+</script>
+
+</html>
