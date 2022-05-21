@@ -213,7 +213,7 @@
             
             .journalistes {
                 background-color: var(--color-j_fonce);
-                display: flex;
+                display: none;
             }
             
             .bandeau_boutons {
@@ -238,7 +238,7 @@
             
             .gouvernement {
                 background-color: var(--color-c_fonce);
-                display: none;
+                display:flex
             }
             
             .gouvernement:nth-child(2n) {
